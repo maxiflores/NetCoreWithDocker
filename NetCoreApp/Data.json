@@ -1,0 +1,80 @@
+{
+  "products": [
+    {
+      "name": "Combo matero forrado en cuero",
+      "price": "$1.750",
+      "image": ""
+    },
+    {
+      "name": "Sets yerbera, azucarera y mate",
+      "price": "$200",
+      "image": ""
+    },
+    {
+      "name": "Combo matero 2",
+      "price": "$2000",
+      "image": ""
+    },
+    {
+      "name": "Combo matero 3",
+      "price": "800",
+      "image": ""
+    },
+    {
+      "name": "Termo aluminio",
+      "price": "$500",
+      "image": ""
+    },
+    {
+      "name": "Termo plastico 900ml",
+      "price": "$250",
+      "image": ""
+    },
+    {
+      "name": "Mate magico",
+      "price": "$180",
+      "image": ""
+    },
+    {
+      "name": "Mate de calabaza",
+      "price": "$320",
+      "image": ""
+    },
+    {
+      "name": "Set 3 bombillas color",
+      "price": "$120",
+      "image": ""
+    },
+    {
+      "name": "Bombilla caña de bambu",
+      "price": "$50",
+      "image": ""
+    },
+    {
+      "name": "Bombilla económica",
+      "price": "$20",
+      "image": ""
+    },
+    {
+      "name": "Bolso matero",
+      "price": "$700",
+      "image": ""
+    },
+    {
+      "name": "Bolso matero con estampa",
+      "price": "$900",
+      "image": ""
+    },
+    {
+      "name": "Azucarera y yerbera con estampa",
+      "price": "$300",
+      "image": ""
+    },
+    {
+      "name": "Set matero 6 productos",
+      "price": "$2570",
+      "image": ""
+    }
+
+  ]
+}
