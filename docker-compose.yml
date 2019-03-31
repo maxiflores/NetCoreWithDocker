@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  netcoreapp:
+    image: ${DOCKER_REGISTRY-}netcoreapp
+    build:
+      context: .
+      dockerfile: NetCoreApp\Dockerfile
