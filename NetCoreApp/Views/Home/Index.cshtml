@@ -22,9 +22,9 @@
                 <div class="col-padding">
                     <h4 class="text-center">Contact</h4>
                     <ul>
-                        <li>Mobile: 3514608874</li>
+                        <li>Mobile: </li>
                         <li>Address: Bv. Los Alemanes 3800 , Barrio Los Boulevares</li>
-                        <li>E-mail: emailcontacto@gmail.com</li>
+                        <li>E-mail: maxir_flores@hotmail.com</li>
                     </ul>
                 </div>
             </div>
@@ -38,11 +38,11 @@
             </div>
             <div class="col-md-4 col-xs-12">
                 <div class="col-padding">
-                    <h4 class="text-center">About Us</h4>
+                    <h4 class="text-center">About</h4>
                     <ul>
-                        <li>
-                            Descrip
-                        </li>
+                        I am a systems professional received from the National Technological University - FRC. in the year 2013.
+                        I started working in 2012. I consider myself an enthusiastic professional for of technology and eager to learn
+                        new technologies and the work environment.
                     </ul>
                 </div>
             </div>
@@ -68,15 +68,15 @@
                                     foreach (var items in Model.products.Skip(i).Take(4))
                                     {
                                         <div class="col-md-3">
-                                            @*@if (items.ItemImagen != "")
-                                {
-                                    <img src="@items.ItemImagen" class="img-responsive" width="200" height="150">
-                                }
-                                else
-                                {*@
-                                            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png"
-                                                 class="img-responsive">
-                                            @* }*@
+                                            @if (items.image != "")
+                                            {
+                                                <img src="@items.image" class="img-responsive" width="200" height="150">
+                                            }
+                                            else
+                                            {
+                                                <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png"
+                                                     class="img-responsive">
+                                            }
                                             <h3>@items.name</h3>
                                             <h4>@items.price</h4>
                                             <p>
@@ -85,12 +85,11 @@
                                             <p></p>
                                         </div>
                                     }
-                                }
-
-                                if (renderNewRow)
-                                {
-                                    @Html.Raw("</div>");
-                                    <br />
+                                    if (renderNewRow)
+                                    {
+                                        @Html.Raw("</div>");
+                                        <br />
+                                    }
                                 }
                             }
                         }

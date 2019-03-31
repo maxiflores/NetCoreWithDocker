@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using NetCoreApp.Models;
@@ -23,6 +19,7 @@ namespace NetCoreApp.Controllers
         {
             string contentRootPath = _hostingEnvironment.ContentRootPath;
             var json= System.IO.File.ReadAllText(contentRootPath + "/Data.json");
+            
 
             ListProducts lst= JsonConvert.DeserializeObject<ListProducts>(json);
 

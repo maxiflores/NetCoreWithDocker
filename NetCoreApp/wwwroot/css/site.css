@@ -36,11 +36,11 @@ body {
     }
 }
 
-hr {
+.hr {
     margin-top: 20px;
     margin-bottom: 20px;
     border: 0;
-    border-top: 2px solid darkorange;
+    border-top: 2px solid darkorange !important;
 }
 
 @media ( min-width: 768px ) {
